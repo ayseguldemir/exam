@@ -36,6 +36,7 @@ gem 'capybara', group: :test
 gem 'pg', group: :production
 gem 'rails_12factor', group: :production
 
+gem 'factory_girl_rails', '4.2.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

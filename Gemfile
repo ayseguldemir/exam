@@ -32,6 +32,8 @@ gem 'rspec-rails', group: :development
 
 gem 'selenium-webdriver', group: :test
 gem 'capybara', group: :test
+gem 'cucumber-rails', '1.4.0', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner', group: :test
 
 gem 'pg', group: :production
 gem 'rails_12factor', group: :production
